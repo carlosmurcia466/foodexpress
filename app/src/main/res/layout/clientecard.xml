@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/fondo"
+        android:minWidth="500dp">
+        <ImageView
+            android:id="@+id/imagenproductodetallecliente"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/nombreproductodetallecliente"
+            android:layout_toRightOf="@+id/imagenproductodetallecliente"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/precioproductodetallecliente"
+            android:layout_below="@+id/nombreproductodetallecliente"
+            android:layout_alignLeft="@+id/nombreproductodetallecliente" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/cantidaddetallecliente"
+            android:layout_below="@+id/precioproductodetallecliente"
+            android:layout_alignLeft="@+id/precioproductodetallecliente" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagenproductodetallecliente"
+            android:layout_centerHorizontal="true"
+            android:text="Eliminar" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/opc_ver_pedidococina"
+        android:title="ver pedidos"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/opc_ver_pedido_procesococina"
+        android:title="pedido en proceso"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/opc_ver_pedido_cerradoscocina"
+        android:title="pedidos cerrados"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>

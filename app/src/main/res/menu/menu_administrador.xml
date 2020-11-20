@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/opc_agregar_usuario"
+        android:title="agregar usuario"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/opc_agregar_categoria_producto"
+        android:title="agregar categoria producto"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/opc_agregar_producto"
+        android:title="agregar producto"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/opc_mostraradministradores"
+        android:title="mostrar administradores"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/opc_mostrarclientes"
+        android:title="mostrar clientes"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/opc_mostrarcocineros"
+        android:title="mostrar cocineros"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/opc_mostrarmotoristas"
+        android:title="mostrar motoristas"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/opc_saliradmin"
+        android:title="salir"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+
+
+</menu>

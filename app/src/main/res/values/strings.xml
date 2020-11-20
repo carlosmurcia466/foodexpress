@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">food express</string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">tienes hambre? Registrate ahora</string>
+
+    <string-array name="departamentos">
+        <item>Seleccionar un departamento</item>
+        <item>San Salvador</item>
+        <item>Santa Ana</item>
+        <item>Chalatenango</item>
+        <item>Ahuachapan</item>
+        <item>Sonsonate</item>
+        <item>La Libertad</item>
+        <item>Cuscatlan</item>
+        <item>Cabañas</item>
+        <item>San miguel</item>
+        <item>La Union</item>
+        <item>Morazan</item>
+        <item>La Paz</item>
+        <item>San Vicente</item>
+        <item>Usulutan</item>
+    </string-array>
+
+</resources>

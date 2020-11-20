@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".agregarproductos">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elegir imagen"
+        android:id="@+id/btnBuscarimagenproducto" />
+
+
+    <ImageView
+        android:id="@+id/imageViewproducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1" />
+
+
+    <EditText
+        android:id="@+id/edtnombreproducto"
+        android:hint="Ingresar nombre producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+    <Spinner
+        android:id="@+id/spinnercategoria"
+        android:layout_width="match_parent"
+        android:background="@drawable/round_border"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_height="50dp"
+        />
+
+
+    <EditText
+        android:id="@+id/edtprecioproducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="0.00"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/edtdetalleproducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ingresar detalle producto"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subir producto"
+        android:id="@+id/btnsubirproducto"
+        android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>

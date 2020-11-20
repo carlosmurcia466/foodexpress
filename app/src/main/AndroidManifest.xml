@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodexpress">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_delivery"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".actualizardatoscliente"></activity>
+        <activity android:name=".verpedidosenruta" />
+        <activity android:name=".verpedidosenproceso" />
+        <activity android:name=".VerPedidosCocina" />
+        <activity android:name=".PedidosCerrados" />
+        <activity android:name=".PedidosenProceso" />
+        <activity android:name=".PedidosenRuta" />
+        <activity android:name=".PedidosCocina" />
+        <activity android:name=".cocina.pedidoscocina" />
+        <activity android:name=".ListaTicket" />
+        <activity android:name=".detallecliente" />
+        <activity android:name=".activitydetails" />
+        <activity android:name=".vermenuproductos" />
+        <activity android:name=".menugeneralcliente" />
+        <activity android:name=".agregarproductos" />
+        <activity android:name=".vermenucliente" />
+        <activity android:name=".agregarcategoriaproducto" />
+        <activity android:name=".listarmotoristas" />
+        <activity android:name=".listarcocineros" />
+        <activity android:name=".listarClientes" />
+        <activity android:name=".listarAdministradores" />
+        <activity android:name=".agregarusuarioadministrador" />
+        <activity android:name=".menu_general" />
+        <activity android:name=".agregarusuario" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitydetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <GridLayout
+            android:columnCount="1"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="100dp">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/imagenproductodetalle"
+                        android:src="@drawable/gatito"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:scaleType="centerCrop" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/tvsigno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:text="$ "
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:background="@color/background_footer"
+                            android:maxLines="1"
+                            android:padding="16dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/rojo" />
+                        <TextView
+                            android:id="@+id/tvprecioproductodetalle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:text="00000"
+                            android:textSize="30dp"
+                            android:textStyle="bold"
+                            android:background="@color/background_footer"
+                            android:maxLines="1"
+                            android:padding="16dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/rojo" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvnombreproductodetalle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:text="00000"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:background="@color/background_footer"
+                        android:maxLines="1"
+                        android:padding="16dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/rojo" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="0dp">
+                <TextView
+                    android:id="@+id/tvdetalleproducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+
+                    android:padding="20dp"
+                    android:textColor="@color/rojo"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:layout_weight="1"
+                    android:text="detalle" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="100dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonmin"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/round_bg"
+                        android:textColor="@color/blanco"
+                        android:layout_height="wrap_content"
+                        android:textSize="50dp"
+                        android:text="-" />
+
+                    <TextView
+                        android:id="@+id/tvcantidaddetalle"
+                        android:layout_width="130dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/round_border"
+                        android:textColor="@color/rojo"
+                        android:textAlignment="center"
+                        android:textSize="50dp"
+                        android:textStyle="bold"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/buttonplus"
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/round_bg"
+                        android:textColor="@color/blanco"
+                        android:layout_height="wrap_content"
+                        android:textSize="50dp"
+                        android:text="+" />
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="100dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp">
+                    <TextView
+                        android:id="@+id/tvguardarpedido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_bg"
+                        android:minHeight="50dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/fondo"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

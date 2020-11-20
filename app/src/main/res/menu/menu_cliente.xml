@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/opc_vermenu"
+        android:icon="@drawable/ordenar"
+        android:title="ORDENAR PEDIDO"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/opc_ordenar"
+        android:icon="@drawable/verpedidos"
+        android:title="CANASTA DE PRODUCTOS"
+        app:showAsAction="ifRoom" />
+
+</menu>

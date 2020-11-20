@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgrondColor">#212121</color>
+    <color name="background_footer">#90000000</color>
+    <color name="colorPrimary">#48C9B0</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+<color name="colorClear">#FFFF</color>
+    <color name="fondo">#48C9B0</color>
+    <color name="negro">#000000</color>
+    <color name="blanco">#ffffff</color>
+    <color name="rojo">#FB3207</color>
+</resources>
